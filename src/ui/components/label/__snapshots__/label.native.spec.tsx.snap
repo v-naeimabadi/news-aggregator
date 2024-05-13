@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "height": 27,
+        "justifyContent": "flex-start",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#3c3c3c",
+          "fontFamily": "Avenir Next",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 19,
+          "marginBottom": 6,
+          "marginRight": 6,
+          "textAlign": "left",
+        },
+      ]
+    }
+  >
+    Label for element
+  </Text>
+  <Text
+    accessibilityHint="required"
+    accessibilityLabel="labelRequiredIcon"
+    style={
+      [
+        {
+          "color": "#fe3232",
+          "fontFamily": "Avenir Next",
+          "fontSize": 20,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    *
+  </Text>
+</View>
+`;
+
+exports[`Label renders with error 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "height": 27,
+        "justifyContent": "flex-start",
+      },
+    ]
+  }
+>
+  <Text
+    color="#FE3232"
+    style={
+      [
+        {
+          "color": "#FE3232",
+          "fontFamily": "Avenir Next",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 19,
+          "marginBottom": 6,
+          "marginRight": 6,
+          "textAlign": "left",
+        },
+      ]
+    }
+  >
+    Label for element
+  </Text>
+  <Text
+    accessibilityHint="required"
+    accessibilityLabel="labelRequiredIcon"
+    style={
+      [
+        {
+          "color": "#fe3232",
+          "fontFamily": "Avenir Next",
+          "fontSize": 20,
+          "fontWeight": "700",
+        },
+      ]
+    }
+  >
+    *
+  </Text>
+</View>
+`;
